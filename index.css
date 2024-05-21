@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+/*roots*/
+:root{
+    --main-font :
+    --sub-font : "Condiment", cursive;
+    --main-text-color : #ffffff;
+
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(68, 68, 71);
+}
+
+/*---navbar---*/
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+.nav-form{
+    width: 40%;
+    margin-right:50px;
+
+}
+.res-icons a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.res-icons i{
+    color: #00ff80;
+}
+.res-icons i+span:hover{
+    color: #00ff80;
+}
+
+.res-icons{
+    text-align: center;
+}
+.icons button{
+    border: none;
+    background-color: transparent;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+}
+  
+.collapse-toggle:checked + .collapsible + .content {
+    display: block;
+}
+        /*--reserve section--*/
+        
+.content{
+   position: absolute;
+   align-items: center;
+   width: 100%;
+}
+
+#boxs{
+    position: relative;
+    background-color:white;
+    color: black;
+    padding:1% 5%;
+    border-radius: 20PX;
+    height: auto;
+    box-shadow: 0 0 30px black;
+    z-index: 20;
+    
+}
+#content0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#boxs .c1{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.685);
+    box-shadow: 0 0 5px ;
+    width: 40%;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10PX;
+    
+}
+#boxs .c2{
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.685);
+    box-shadow: 0 0 5px ;
+    width: 40%;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10PX;
+
+}
+#content0 i{
+    color: black;
+    padding-right: 8px;
+}
+.hero-img{
+    background-image: url('https://www.shutterstock.com/image-photo/blue-suitcase-sun-glasses-hat-260nw-1094945555.jpg');
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px); 
+}
+
+.sec-title{
+    font-family: var( --sub-font);
+    letter-spacing: 5px;
+    font-weight: 50;
+}
+
+        /*--carousel--*/
+
+.carousel img{
+    
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    height: 300px;
+}
+
+.text-carousel h3{
+    font-size: 2rem;
+    color:snow;
+    font-family: var(--sub-font);
+    letter-spacing: 5px;
+}
+.text-carousel h4{
+    font-size: 0rem;
+    font-family: var(--sub-font);
+    letter-spacing: 3px;
+}
+
+
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    scale: 1.055;
+    
+}
+.img-offer{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/*** packages ***/
+
+
+
+#packages .card-text{
+    text-align: justify;
+
+}
+
+.more2 {
+    margin-top: 50px;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(38, 40, 44);
+    height: 60vb;
+}

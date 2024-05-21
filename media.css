@@ -1,0 +1,31 @@
+@media(max-width:600px){
+    .res-icons span{
+        display: none;
+    }
+    input{
+        width: 50px;
+    }
+    
+    #content0{
+        flex-direction: column;
+    }
+    #boxs .c1   {
+        width: 100%;
+        font-size: .7rem;
+        margin-bottom: 15px;
+    }
+    #boxs .c2{
+        width: 100%;
+        font-size: .7rem;
+        margin-bottom: 15px;
+    }
+    .text-carousel h3{
+        display: none;
+    }
+    .text-carousel h4{
+        font-size: .8rem;
+    }
+    .footer{
+        height: 100vb;
+    }
+}
